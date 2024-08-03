@@ -3,5 +3,5 @@ function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "github.com")) {
         return "PROXY localhost:3128";
     }
-    return "DIRECT" 
+    return "DIRECT";
 }
